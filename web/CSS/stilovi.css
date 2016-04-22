@@ -1,0 +1,310 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 9, 2016, 8:54:04 AM
+    Author     : igor
+*/
+
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,ol,ul,li,form,label,legend,caption,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+a img {
+    border: none
+}
+
+aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: 	#0080ff;
+    color: #F5F5DC;
+    margin: 0 0 1px;
+    height: 100%;
+    line-height: 1.5;
+}
+
+p {
+    margin-bottom: 7px;
+}
+
+h1.fontface {
+    font: 60px Arial, sans-serif;
+    letter-spacing: 0;
+}
+
+h1.fontface span {
+    text-shadow: 0px 1px 300px #ffffff; 
+    text-align: center;
+}
+
+h2.fontface {
+    font: 48px/52px  Arial, sans-serif;
+    letter-spacing: 0;
+    margin-top: 10px;
+}
+
+span.h {
+    text-shadow: 0px 1px 1px #000;   
+}
+
+p.style1 {
+    font: 18px Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 0.9;
+    color: #191919;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 1.3;
+    color: #191919;
+    text-transform: none;
+    font-style: bold;
+    text-align: center;
+    margin-top: 7px;
+    padding-bottom: 6px;
+}
+
+h3 {
+    font-size: 23px;
+    line-height: 0.9;
+    color: #191919;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.leftfloat {
+    float: left;
+    clear: both;
+}
+
+h3 span {
+    font-size: 12px;
+    line-height: 1.4;
+    color: white;
+    display: block;
+    margin-top: 10px;
+    text-transform: none;
+}
+
+h4 {
+    font-size: 23px;
+    line-height: 0.9;
+    color: white;
+    text-align: left;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+}
+
+h4 span {
+    font-size: 12px;
+    line-height: 1.4;
+    color: white;
+    display: block;
+    margin-top: 10px;
+    text-transform: none;
+}
+
+header {
+    position: relative;
+    background: beige;
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+header#bottom {
+    margin: 72px auto;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: transparent;
+    min-height: 600px;
+    margin-left: 230px;
+}
+
+.container1 {
+    width: auto;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    padding-top: 10px;
+}
+
+.container2 {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #00d0ff;
+    padding-top: 20px;
+}
+
+.container2 p {
+    font-family: 'EL', Arial, sans-serif;
+    text-align: center;
+}
+
+.content1 {
+    float: left;
+    width: 900px;
+    margin-bottom: 16px;
+    margin-left: 26px;
+    background: #333;
+    border-top: 3px solid #fff;
+}
+
+nav {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5%;
+    /* margin-right: 30%; */
+    padding-top: 15px;
+}
+
+nav ul li {
+    float: left;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    color: #F0FF00;
+    text-transform: capitalize;
+    font-weight: normal;
+    background-color: transparent;
+    text-decoration: none;
+    margin-top: 3px;
+    padding: 5px;
+}
+
+.green {
+    color: #9acd32;
+}
+
+.orange {
+    color: #FF6600;
+}
+
+.blue {
+    color: #00d0ff;
+}
+
+.large {
+    font-size: 72px;
+}
+
+.medium {
+    font-size: 50px;
+}
+
+.small {
+    font-size: 25px;
+}
+
+#main {
+    margin-top: 80px;
+}
+
+.gallery {
+    list-style: none;
+    margin-top: 5%;
+    padding: 0;
+    margin-left: 10%;
+    width: 90%;
+    text-align: center;
+}
+
+.gallery input[type="button"]{
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #00d0ff;
+    color: #f0ff00;
+}
+
+.gallery li {
+    margin:15px 5px;
+    padding: 5px 12px;
+    float: left;
+    position: relative;
+    width: 180px;
+    height: 250px;
+    background: beige;
+    text-align:center;
+    border: 2px solid #DDD;
+    font-size: 1.2em;
+}
+
+.gallery li span{
+
+    color:yellow;
+    text-shadow: 1px 1px 2px #000000 !important;
+    filter: dropshadow(color=#000000, offx=1, offy=1) !important; 
+}
+
+.gallery img.slika {
+    border: none;
+    padding: 12px;
+    width: 160px;
+    height: 110px;
+    background: white;
+    margin-top: 5px;
+}
+
+
+#content {
+    float: left;
+    width: 400px;
+    margin-left: 40px;
+}
+
+.gallery a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}

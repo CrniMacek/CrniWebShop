@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 9, 2016, 8:54:48 AM
+    Author     : igor
+*/
+
+div.kosaricaContainer{
+    padding: 5px;
+    margin-top: 95px;
+    left: 2%;
+    top: 70px;
+    display: block;
+    position: fixed;
+    background: yellowgreen;
+    border: 2px solid #DDD;
+    float: left;
+    font-size: 1.2em;
+    width:195px;
+}
+
+div.kosaricaContainer span{
+    display: inline-block;
+    color: #E2FF00;
+    font-family: 'EL', sans-serif;
+    padding:3px;
+}
+
+div.stavkeKosarice{
+
+    overflow-y: scroll;
+    height: 210px;
+}
+
+div.stavkaKosarice{
+
+    margin: 5px;
+    border: 1px solid white;   
+}
+
+div.kosaricaContainer input[type="button"]{
+    
+    width: 190px;
+}
+
+#kosarica_Naslov{
+
+    font-weight: bold;
+    font-size:24px;color: #04D0FF;
+    text-shadow: 1px 1px 2px #000000;}
+
+#kosarica_Naslov:hover{
+    cursor:pointer;
+    color: yellow;
+    text-shadow: 0px 0px 3px #ffffff;
+}
